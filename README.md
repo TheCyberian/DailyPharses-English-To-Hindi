@@ -19,7 +19,8 @@ Now for each of the grid cell, add a *Button*. One for each cell of the grid. So
 Add `onClick` function to each of the buttons `android:onClick="playPhrase"`. 
 
 
-### Step 3: For our application we are using 8 prompts:
+### Step 3: 
+For our application we are using 8 prompts:
 - Hello 
 - How are you?
 - Please meet me sometime.
@@ -31,7 +32,7 @@ Add `onClick` function to each of the buttons `android:onClick="playPhrase"`.
 
 For playing these prompts, we are going to place the audio files for the phrases in `res/raw` folder of the app.
 And the audio files should be named, same as the tag values for buttons. You can select different names as well, but that will complicate the process unnecessarily.
-Add these tags to each one of the buttons places in the grid at *Step 2*.
+Add these tags to each one of the buttons places created in the grid at *Step 2*.
 
 `android:tag="hello"`
 
